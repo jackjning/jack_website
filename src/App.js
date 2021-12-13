@@ -1,21 +1,32 @@
-function App() {
+import styled from "@emotion/styled";
+import Nav from "./Navigate";
+import Links from "./MediaLinks";
+import Routes from "./routes";
+import { HashRouter as Router } from "react-router-dom";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Box>
+        <Fill>
+          <Nav />
+          <Routes />
+          <Links />
+        </Fill>
+      </Box>
+    </Router>
   );
-}
+};
 
 export default App;
+
+const Box = styled.div`
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+`;
+
+const Fill = styled.div({
+  width: "700px",
+  margin: "10px",
+});
