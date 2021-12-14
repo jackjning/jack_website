@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-const Resume = () => {
+export const Resume = () => {
   return (
     <Links>
       <h1>Resume</h1>
@@ -10,8 +10,6 @@ const Resume = () => {
     </Links>
   );
 };
-
-export default Resume;
 
 const Links = styled.div`
   a {

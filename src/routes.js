@@ -1,7 +1,7 @@
-import Home from "./Home";
-import About from "./About";
-import Resume from "./Resume";
-import Projects from "./Projects";
+import { Home } from "./Home";
+import { About } from "./About";
+import { Resume } from "./Resume";
+import { Projects } from "./Projects";
 import { Route, Routes } from "react-router-dom";
 
 const routes = () => {

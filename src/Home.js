@@ -1,6 +1,6 @@
 import {} from "module";
 
-const Home = () => {
+export const Home = () => {
   return (
     <div>
       <h1>Homepage</h1>
@@ -8,5 +8,3 @@ const Home = () => {
     </div>
   );
 };
-
-export default Home;

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "@emotion/styled";
 
-function Nav() {
+export const Nav = () => {
   return (
     <nav className="navBar">
       <StyledLink to="/">Home</StyledLink>
@@ -12,8 +12,6 @@ function Nav() {
     </nav>
   );
 }
-
-export default Nav;
 
 const StyledLink = styled(Link)`
   color: black;

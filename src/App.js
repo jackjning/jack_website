@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
-import Nav from "./Navigate";
-import Links from "./MediaLinks";
+import { Nav } from "./Navigate";
+import { Links } from "./MediaLinks";
 import Routes from "./routes";
 import { HashRouter as Router } from "react-router-dom";
 
-const App = () => {
+export const App = () => {
   return (
     <Router>
       <Box>
@@ -17,8 +17,6 @@ const App = () => {
     </Router>
   );
 };
-
-export default App;
 
 const Box = styled.div`
   display: flex;

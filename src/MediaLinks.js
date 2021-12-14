@@ -1,18 +1,16 @@
 import React from "react";
 import styled from "@emotion/styled";
 
-function Links() {
+export const Links = () => {
   return (
-    <Navi>
+    <Nav>
       <a href="https://github.com/jackjning">Github</a>
       <a href="https://www.linkedin.com/in/jack-ning-466bb6149/">LinkedIn</a>
-    </Navi>
+    </Nav>
   );
 }
 
-export default Links;
-
-const Navi = styled.nav`
+const Nav = styled.nav`
   padding-top: 20px;
 
   a {

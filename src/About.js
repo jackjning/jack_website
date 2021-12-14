@@ -1,7 +1,7 @@
 import JackImage from "./Alaska.JPG";
 import styled from "@emotion/styled";
 
-const About = (props) => {
+export const About = () => {
   return (
     <div>
       <h1 className="center">About Me</h1>
@@ -15,8 +15,6 @@ const About = (props) => {
     </div>
   );
 };
-
-export default About;
 
 const StyledImage = styled.img`
   height: 300px;
