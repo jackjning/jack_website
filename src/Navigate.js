@@ -11,7 +11,7 @@ export const Nav = () => {
       <StyledLink to="/Projects">Projects</StyledLink>
     </nav>
   );
-}
+};
 
 const StyledLink = styled(Link)`
   color: black;

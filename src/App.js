@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { Nav } from "./Navigate";
 import { Links } from "./MediaLinks";
-import Routes from "./routes";
+import { PageRoutes } from "./PageRoutes";
 import { HashRouter as Router } from "react-router-dom";
 
 export const App = () => {
@@ -10,7 +10,7 @@ export const App = () => {
       <Box>
         <Fill>
           <Nav />
-          <Routes />
+          <PageRoutes />
           <Links />
         </Fill>
       </Box>

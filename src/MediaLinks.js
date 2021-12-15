@@ -8,7 +8,7 @@ export const Links = () => {
       <a href="https://www.linkedin.com/in/jack-ning-466bb6149/">LinkedIn</a>
     </Nav>
   );
-}
+};
 
 const Nav = styled.nav`
   padding-top: 20px;
