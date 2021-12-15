@@ -1,6 +1,5 @@
 import JackImage from "./alaska.jpg";
 import styled from "@emotion/styled";
-import * as React from "react";
 
 export const About = () => {
   return (
