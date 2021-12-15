@@ -4,7 +4,7 @@ import { Resume } from "./Resume";
 import { Projects } from "./Projects";
 import { Route, Routes } from "react-router-dom";
 
-const routes = () => {
+export const PageRoutes = () => {
   return (
     <Routes>
       <Route exact path="/" element={<Home />} />
@@ -14,5 +14,3 @@ const routes = () => {
     </Routes>
   );
 };
-
-export default routes;
