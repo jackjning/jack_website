@@ -1,4 +1,4 @@
-import JackImage from "./Alaska.JPG";
+import JackImage from "./alaska.jpg";
 import styled from "@emotion/styled";
 
 export const About = () => {
